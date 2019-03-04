@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	 <title>My Websites</title>
+	<meta name="description" content="My Websites" />
+	<meta name="keywords" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<style>
+		body
+		{
+			background-color: #222222;
+			font-size: 30px;
+			color: lightblue;
+			text-align: center;
+		}
+		
+		#container
+		{
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		#headerTitle
+		{
+			margin:auto;
+			background-color: #111111;
+		}
+	</style>
+	
+	<script type="text/javascript">
+	
+	function presentWarning()
+	{
+		document.getElementById ( "warning" ).style["z-index"] = "1" ;
+		setImgurBrightness(60);
+		
+	}
+	
+	function hideWarning()
+	{
+		document.getElementById ( "warning" ).style["z-index"] = "-1" ;
+		setImgurBrightness(100);
+	}
+	
+	function setImgurBrightness(nr)
+	{
+		document.getElementById("imgur").style["filter"] = "brightness("+nr+"%)";
+	}
+	
+	function setPianoBrightness(nr)
+	{
+		document.getElementById("piano").style["filter"] = "brightness("+nr+"%)";
+	}
+	
+	function setRepoBrightness(nr)
+	{
+		document.getElementById("repo").style["filter"] = "brightness("+nr+"%)";
+	}
+	
+	</script>
+	
+</head>
+
+<body>
+	<div id="container" >
+	
+	<div id="headerTitle">
+		<a id="hTitle"background-color="white">Nauka kształcenia słuchu i teorii muzyki</a><br>
+		<a class="">Zaloguj się</a><br>
+		<a>Zarejestruj</a>
+	</div>
+		
+		
+		
+		
+
+</body>
+
+</html>
